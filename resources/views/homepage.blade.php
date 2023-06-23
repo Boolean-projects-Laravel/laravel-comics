@@ -9,5 +9,7 @@
     <body>
         {{-- <img src="{{ Vite::asset('resources/img/picsum30.jpg') }}" alt=""> --}}
         @include('partials.header')
+        @include('partials.main')
+        @include('partials.footer')
     </body>
 </html>

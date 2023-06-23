@@ -14,5 +14,40 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('homepage');
+    return view('homepage', [
+        'listHarder' => [
+            [
+                'title' => 'CHARACTERS',
+            ],
+            [
+                'title' => 'COMICS',
+            ],
+            [
+                'title' => 'MOVIES',
+            ],
+            [
+                'title' => 'TV',
+            ],
+            [
+                'title' => 'GAMES',
+            ],
+            [
+                'title' => 'COLLECTIBES',
+            ],
+            [
+                'title' => 'VIDEOS',
+            ],
+            [
+                'title' => 'FANS',
+            ],
+            [
+                'title' => 'NEWS',
+
+            ],
+            [
+                'title' => 'SHOP',
+            ],
+        ],
+    ]);
+
 });
